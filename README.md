@@ -1,4 +1,4 @@
-# 📦 Product Catalog – Full‑Stack Application
+#  Product Catalog – Full‑Stack Application
 
 A simple product catalog featuring:
 
@@ -9,9 +9,9 @@ Copy‑and‑paste this README into your project root so teammates can run eithe
 
 ---
 
-## 🖥️ Backend – ASP.NET Core Web API
+## Backend – ASP.NET Core Web API
 
-### 🔧 Prerequisites
+### Prerequisites
 
 | Tool                 | Check Installed       | Install (if needed)                                                            |
 | -------------------- | --------------------- | ------------------------------------------------------------------------------ |
@@ -28,7 +28,7 @@ Copy‑and‑paste this README into your project root so teammates can run eithe
 
 ---
 
-### 🚀 Quick‑start
+### Quick‑start
 
 ```bash
 # 1 – open a terminal at repo root
@@ -56,7 +56,7 @@ http://localhost:7001    (HTTP)
 
 ---
 
-### 📂 Seed Data
+### Seed Data
 
 EF Core seeds three demo products in **ApplicationDbContext.OnModelCreating()**.  Comment them out or change as you wish.
 
@@ -86,16 +86,16 @@ Example `POST` payload:
 
 ---
 
-## 🌐 Frontend – Static HTML + JS
+## Frontend – Static HTML + JS
 
-### 🔧 Prerequisites
+### Prerequisites
 
 * Any modern browser
 * (Optional) [VS Code](https://code.visualstudio.com/) with the **Live Server** extension
 
 ---
 
-### 🚀 Quick‑start
+### Quick‑start
 
 ```bash
 # 1 – open second terminal at repo root
@@ -124,7 +124,7 @@ Change port if you altered Kestrel’s launch settings.
 
 ---
 
-## 🔄 Common Commands
+## Common Commands
 
 ```bash
 # Run backend tests (if you add any)
@@ -149,12 +149,6 @@ dotnet ef database drop -f && dotnet ef database update
 
 ---
 
-## 📜 License
-
-MIT
-
----
-
-## 👤 Author
+## Author
 
 Bharath Kumar Bellam
